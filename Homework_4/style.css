@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+body,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span 
+{
+     margin: 0; 
+     padding: 0;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #33CCCC;
+}
+
+.page {
+    margin: 0 auto;
+    width: 1240px;
+}
+
+.header {
+    display: flex;
+    margin-top: 50px;
+    height: 50px;
+}
+
+.logo {
+    width: 250px;
+    display: inline-block;
+}
+
+.topbar {
+    margin-top: 0;
+    margin-left: 480px;
+}
+
+.list {
+    position: relative;
+    list-style: none;
+}
+
+.list > li{
+    display: inline-block;    
+    padding-top: 10px;  
+    padding-right: 30px;
+    font-size: 14px;                 
+}
+
+.list > li > a{
+   color: #fff;
+   text-decoration: none;
+}
+
+.btn-header {
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 0;
+    width: 100px;
+    height: 35px;
+    color: #FF6845;
+    cursor: pointer;
+}
+
+.content {
+    width: 1240px;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+}
+
+.title {
+    display: inline-block;
+    position: relative;
+    height: 620px;
+    width: 620px;
+    border: 0;
+    margin: 0;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.image {
+    display: inline-block;
+    height: 620px;
+    width: 620px;
+    position: relative;
+    font-size: 0;
+    margin: 0;
+    border: 0;
+}
+
+.phone {
+    position: absolute; 
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 80px;
+}
+
+.orange-icon {
+    position: absolute;
+    top: 32%;
+    left: 4%;
+}
+
+.blue-icon {
+    position: absolute;
+    top: 25%;
+    left: 55%;
+}
+
+.purple-icon {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+}
+
+.subtitle {
+    font-size: 42px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.desc {
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+}
+
+.message {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.myinput {
+    width: 250px;
+    height: 35px;
+    border-radius: 2px;
+    border: none;
+}
+
+.btn-message {
+    width: 250px;
+    height: 35px;
+    border-radius: 2px;
+    border: none;
+    margin-top: 10px;
+    background: #4A4A4A;
+    color: #fff;
+    cursor: pointer;
+}
+ 
+

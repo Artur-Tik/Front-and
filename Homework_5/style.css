@@ -1,0 +1,21 @@
+
+
+@media screen and (max-width: 768px) {
+
+    .page-container {
+        flex-wrap: wrap;
+    }
+    .col {
+        width: 100%;
+    }
+
+    .block_bottom {
+        display: none;
+    }
+    .image {
+       background-image: url(./assets/img/Image.png);
+       background-size: cover;
+       background-position: top;
+       background-position: right bottom;
+    }
+}
