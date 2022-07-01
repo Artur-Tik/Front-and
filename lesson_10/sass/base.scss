@@ -1,12 +1,9 @@
-@import './mixins';
-@import './variables';
-
 * {
     box-sizing: border-box;
 }
 
 html {
-    color: $default-text-color;
+    
     font-size: 15px;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
@@ -41,9 +38,7 @@ button {
     font-size: 1rem;
 }
 
-.content-wrapper {
-    @include container;
-}
+
 
 .text-regular {
     font-weight: 500;
