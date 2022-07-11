@@ -1,0 +1,34 @@
+body {
+  background-color: #74408c;
+}
+
+.sign-in-form {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 421px;
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.form-fied {
+  width: 380px;
+  height: 55px;
+  background: #e5e9ed;
+  border: 1px solid #c9c9c9;
+  border-radius: 5px;
+  margin-top: 41px;
+  padding-left: 10px;
+}
+
+.submit-btn {
+  width: 380px;
+  height: 55px;
+  background: #b649e8;
+  border: 1px solid #b649e8;
+  border-radius: 5px;
+  margin-top: 55px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -4,9 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>lesson_11</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
+
   <body>
+    <div class="sign-in-form">
+      <h3 class="form-header">SING IN TO YOUR ACCOUNT</h3>
+      <input
+        class="form-fied name-field"
+        onkeypress="clearNameError()"
+        value=""
+        type="text"
+        placeholder="mt@gmail.com"
+      />
+      <div class="name-field-error"></div>
+      <input
+        class="form-fied password-field"
+        onkeypress="clearPasswordError()"
+        value=""
+        type="password"
+        placeholder="Password"
+      />
+      <div class="password-field-error"></div>
+      <button onclick="showPassword()">SHOW PASSWORD</button>
+      <button class="submit-btn" onclick="logIn()">Sing in</button>
+    </div>
     <script src="./scripts.js"></script>
   </body>
 </html>
