@@ -8,8 +8,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   min-height: 100vh;
-  background: #000;
+  background: url(../assets/image.jpeg);
+}
+
+.body-active {
+  background: url(../assets/1603491344_45-p-fon-belii-kirpich-65.jpeg);
 }
 
 .btn {
@@ -17,29 +22,44 @@ body {
   padding: 20px 50px;
   display: block;
   text-decoration: none;
-  width: 200px;
+  width: 300px;
   overflow: hidden;
   border-radius: 40px;
   border: none;
   box-shadow: 5px 10px 15px rgba(235, 28, 28, 0.9019607843), 3px 5px 8px rgba(235, 28, 28, 0.8862745098), inset 3px 5px 10px rgba(235, 28, 28, 0.768627451), inset 3px 5px 10px rgba(235, 28, 28, 0.768627451);
 }
 
+.btn-active {
+  box-shadow: 5px 10px 15px rgba(98, 220, 57, 0.622), 3px 5px 8px rgba(98, 220, 57, 0.622), inset 3px 5px 10px rgba(98, 220, 57, 0.622), inset 3px 5px 10px rgba(98, 220, 57, 0.622);
+}
+
 .text {
+  font-family: Amatic SC;
   position: relative;
-  color: #000;
-  font-size: 20px;
-  font-family: Arial;
-  letter-spacing: 8px;
+  color: #000000;
+  font-size: 45px;
+  letter-spacing: 4px;
   z-index: 1;
 }
 
 .liquid {
   position: absolute;
-  top: -70px;
+  top: -90px;
   left: 0;
-  width: 200px;
-  height: 200px;
-  background: #da1c1c;
+  width: 300px;
+  height: 300px;
+  background: rgb(234, 15, 15);
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+
+.liquid-active {
+  position: absolute;
+  top: -90px;
+  left: 0;
+  width: 300px;
+  height: 300px;
+  background: rgb(97, 220, 57);
   box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
   transition: 0.5s;
 }
@@ -62,6 +82,12 @@ body {
   animation: animate 4s linear infinite;
 }
 
+.liquid-active::before {
+  border-radius: 45%;
+  background: rgb(234, 15, 15);
+  animation: animate 5s linear infinite;
+}
+
 .liquid::after {
   border-radius: 40%;
   background: rgba(20, 20, 20, 0.5);
@@ -69,7 +95,7 @@ body {
 }
 
 .btn:hover .liquid {
-  top: -120px;
+  top: -200px;
 }
 
 @keyframes animate {
@@ -79,6 +105,24 @@ body {
   100% {
     transform: translate(-50%, -75%) rotate(360deg);
   }
+}
+.content {
+  color: transparent;
+  font-size: 80px;
+}
+
+.content-active {
+  font-family: Amatic SC;
+  letter-spacing: 4px;
+  animation: neon1 2s ease-in-out infinite alternate;
+  padding-top: 80px;
+  font-size: 100px;
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+  color: #3ce659;
+  font-weight: 500;
+  text-shadow: 2px 2px 0px #eb452b, 4px 4px 0px #efa032, 6px 6px 0px #46b59b, 8px 8px 0px #017e7f, 10px 10px 0px #052939, 12px 12px 0px #c11a2b, 14px 14px 0px #c11a2b, 16px 16px 0px #c11a2b, 18px 18px 0px #c11a2b;
 }
 
 /*# sourceMappingURL=style.css.map */
