@@ -6,11 +6,12 @@
 
 body {
   display: flex;
+  background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   min-height: 100vh;
-  background: url(../assets/image.jpeg);
+  background: url(../assets/1618533411_39-funart_pro-p-oboi-fon-chernii-kirpich-40.jpeg);
 }
 
 .body-active {
@@ -26,11 +27,17 @@ body {
   overflow: hidden;
   border-radius: 40px;
   border: none;
-  box-shadow: 5px 10px 15px rgba(235, 28, 28, 0.9019607843), 3px 5px 8px rgba(235, 28, 28, 0.8862745098), inset 3px 5px 10px rgba(235, 28, 28, 0.768627451), inset 3px 5px 10px rgba(235, 28, 28, 0.768627451);
+  box-shadow: 5px 10px 15px rgba(235, 28, 28, 0.9019607843),
+    3px 5px 8px rgba(235, 28, 28, 0.8862745098),
+    inset 3px 5px 10px rgba(235, 28, 28, 0.768627451),
+    inset 3px 5px 10px rgba(235, 28, 28, 0.768627451);
 }
 
 .btn-active {
-  box-shadow: 5px 10px 15px rgba(98, 220, 57, 0.622), 3px 5px 8px rgba(98, 220, 57, 0.622), inset 3px 5px 10px rgba(98, 220, 57, 0.622), inset 3px 5px 10px rgba(98, 220, 57, 0.622);
+  box-shadow: 5px 10px 15px rgba(98, 220, 57, 0.622),
+    3px 5px 8px rgba(98, 220, 57, 0.622),
+    inset 3px 5px 10px rgba(98, 220, 57, 0.622),
+    inset 3px 5px 10px rgba(98, 220, 57, 0.622);
 }
 
 .text {
@@ -122,7 +129,9 @@ body {
   line-height: 70px;
   color: #3ce659;
   font-weight: 500;
-  text-shadow: 2px 2px 0px #eb452b, 4px 4px 0px #efa032, 6px 6px 0px #46b59b, 8px 8px 0px #017e7f, 10px 10px 0px #052939, 12px 12px 0px #c11a2b, 14px 14px 0px #c11a2b, 16px 16px 0px #c11a2b, 18px 18px 0px #c11a2b;
+  text-shadow: 2px 2px 0px #eb452b, 4px 4px 0px #efa032, 6px 6px 0px #46b59b,
+    8px 8px 0px #017e7f, 10px 10px 0px #052939, 12px 12px 0px #c11a2b,
+    14px 14px 0px #c11a2b, 16px 16px 0px #c11a2b, 18px 18px 0px #c11a2b;
 }
 
 /*# sourceMappingURL=style.css.map */
