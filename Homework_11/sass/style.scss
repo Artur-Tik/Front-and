@@ -113,21 +113,37 @@ body {
 }
 
 .content {
+  font-family: Amatic SC;
   color: transparent;
   font-size: 80px;
+  letter-spacing: 4px;
+  padding-top: 80px;
+  font-size: 80px;
+  text-align: center;
+  height: 180px;
+  line-height: 70px;
+  font-weight: 500;
 }
 
 .content-active {
-  font-family: Amatic SC;
-  letter-spacing: 4px;
-  padding-top: 80px;
-  font-size: 100px;
-  text-align: center;
-  height: 70px;
-  line-height: 70px;
   color: #3ce659;
-  font-weight: 500;
   text-shadow: 2px 2px 0px #eb452b, 4px 4px 0px #efa032, 6px 6px 0px #46b59b,
     8px 8px 0px #017e7f, 10px 10px 0px #052939, 12px 12px 0px #c11a2b,
     14px 14px 0px #c11a2b, 16px 16px 0px #c11a2b, 18px 18px 0px #c11a2b;
+}
+
+@media (max-width: 900px) {
+
+  .btn:hover .liquid {
+    top: -100px;
+  }
+  
+}
+
+@media (max-width: 600px) {
+
+  .btn:hover .liquid {
+    top: -100px;
+  }
+  
 }
