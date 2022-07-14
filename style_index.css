@@ -1,25 +1,11 @@
-:root {
-  --primary-light: #8abdff;
-  --primary: #6d5dfc;
-  --primary-dark: #5b0eeb;
-
-  --white: #ffffff;
-  --greyLight-1: #e4ebf5;
-  --greyLight-2: #c8d0e7;
-  --greyLight-3: #bec8e4;
-  --greyDark: #9baacf;
-}
-
-html {
+* {
   box-sizing: border-box;
-  font-size: 62.5%;
-  overflow-y: scroll;
-  background: #e4ebf5;
 }
 
 body {
-  background: #e4ebf5;
-  padding: 20px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
 .container {
@@ -27,50 +13,64 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Poppins", sans-serif;
   background: #e4ebf5;
 }
 
 .components {
-  width: 80%;
-  height: 80%;
-  border-radius: 3rem;
-  box-shadow: 0.8rem 0.8rem 1.4rem #c8d0e7, -0.2rem -0.2rem 1.8rem #ffffff;
-  padding: 4rem;
-  display: grid;
-  grid-template-columns: 17.6rem 19rem 20.4rem;
-  grid-template-rows: repeat(autofit, min-content);
-  grid-column-gap: 5rem;
-  grid-row-gap: 2.5rem;
-  align-items: center;
+  border-radius: 30px;
+  box-shadow: 0.8rem 0.8rem 1rem #c8d0e7, -0.2rem -0.2rem 1rem #ffffff;
+  display: flex;
+  justify-content: center;
+  margin: 40px;
 }
 
 .btn {
-  width: 15rem;
-  height: 4rem;
+  width: 180px;
+  height: 32px;
   background: #e4ebf5;
-  border-radius: 1rem;
-  box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #ffffff;
+  border-radius: 10px;
+  box-shadow: 0.6rem 0.5rem 0.3rem #c8d0e7, -0.2rem -0.2rem 0.3rem #ffffff;
   justify-self: center;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: 0.3s ease;
   border: none;
   text-decoration: none;
-  grid-column: 1 / 2;
-  grid-row: 5 / 6;
   color: #868fa9;
-  font-size: 1.6rem;
-  margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 12px;
 }
 
 .btn:active {
-  box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2),
-    inset -0.2rem -0.2rem 0.5rem var(--white);
+  box-shadow: inset 0.2rem 0.2rem 0.5rem #c8d0e7,
+    inset -0.2rem -0.2rem 0.5rem #ffffff;
 }
 
 .btn:hover {
-  color: #d79247;
+  color: #55dee8;
+}
+
+.components_homeworks,
+.components_lessons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 100px;
+}
+
+.btn-icon {
+  width: 50px;
+  height: 50px;
+  background: #e4ebf5;
+  border-radius: 25px;
+  box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #ffffff;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.btn-icon > img {
+  width: 25px;
 }
