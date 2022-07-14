@@ -26,6 +26,7 @@ body {
   overflow: hidden;
   border-radius: 40px;
   border: none;
+  z-index: 1;
   box-shadow: 5px 10px 15px rgba(235, 28, 28, 0.9019607843),
     3px 5px 8px rgba(235, 28, 28, 0.8862745098),
     inset 3px 5px 10px rgba(235, 28, 28, 0.768627451),
@@ -76,7 +77,6 @@ body {
   width: 200%;
   height: 200%;
   position: absolute;
-  top: 0;
   left: 50%;
   transform: translate(-50%, -75%);
 }
@@ -135,7 +135,7 @@ body {
 @media (max-width: 900px) {
 
   .btn:hover .liquid {
-    top: -100px;
+    top: -90px;
   }
   
 }
@@ -143,7 +143,7 @@ body {
 @media (max-width: 600px) {
 
   .btn:hover .liquid {
-    top: -100px;
+    top: -90px;
   }
   
 }
